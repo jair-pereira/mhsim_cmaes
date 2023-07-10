@@ -1,0 +1,10 @@
+,Sampling,Recombination,Ranking ,Step-size Adaptation,CMA: Rank-One,CMA: Rank-μ,CMA: Active CM,CMA: Heavyside Function Stall,Restart Strategy,Diagonal,Keeping Search Points,Mirrored Sampling,Hessian Estimation
+CMA-ES-Akimoto,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,Cumulative,O,O,O,O,IPOP,fixed D=I,X,X,X
+CMA-ES-pycma,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,Cumulative,O,O,O,O,IPOP,fixed D=I,X,X,X
+DD-CMA-ES-Akimoto,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,Cumulative,O,O,O,O,IPOP,Adaptive,X,X,X
+DD-CMA-ES-pycma,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,Cumulative,O,O,O,O,IPOP,Adaptive,X,X,X
+CMAES-APOP-Var1,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,X,X,X,O,X,APOP,fixed D=I,X,X,X
+CMAES-APOP-KP,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,X,X,X,O,X,APOP,fixed D=I,O,X,X
+CMAES-APOP-MA,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,X,X,X,O,X,APOP,fixed D=I,X,O,X
+CMAES-APOP-KMA,"N(m, 𝜎^2 DCD)",Weighted recombination,Ascending,X,X,X,O,X,APOP,fixed D=I,O,O,X
+HE-ES,"N(m, 𝜎 AGb)",Weighted recombination,Ascending,Cumulative,X,X,O,X,IPOP,fixed D=I,X,O,O
