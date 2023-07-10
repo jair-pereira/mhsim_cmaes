@@ -1,5 +1,5 @@
 # Re-evaluating Algorithm Variations using Empirical Similarity
-This repository contains the code, data, and additional figures for our GECCO 2023 poster.
+This repository contains the code, data, and additional figures for our [GECCO 2023 poster](https://github.com/jair-pereira/mhsim_cmaes/blob/main/gecco23_poster_cmaes_cmp.pdf).
 
 In this study, we analyze whether high Component Similarity correlates to high Performance Similarity on nine CMA- ES variants on the COCO benchmark.
 We observed a weak to moderate correlation between the similarity metrics, and that the metrics provide complementary insights into the algorithm analysis.
