@@ -16,7 +16,7 @@ If you want to generate it again, follow the steps below.
 
 Those figures are in the folder [data/](https://github.com/jair-pereira/mhsim_cmaes/tree/main/data)
 
-### Dependecies
+### Dependencies
 To run these scripts, it is necessary to have installed:
 * cocopp (coco processing tool)
 * numpy
